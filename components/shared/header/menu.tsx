@@ -1,5 +1,5 @@
 import { EllipsisVertical, ShoppingCart, UserIcon } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import Link from "next/link";
 import ModeToogle from "./mode-toggle";
 import {
@@ -8,7 +8,7 @@ import {
   SheetDescription,
   SheetTitle,
   SheetTrigger,
-} from "../ui/sheet";
+} from "../../ui/sheet";
 
 const Menu = () => {
   return (
@@ -31,7 +31,7 @@ const Menu = () => {
           <SheetTrigger className="align-middle">
             <EllipsisVertical />
           </SheetTrigger>
-          <SheetContent className="flex flex-col items-start">
+          <SheetContent className="flex flex-col items-start ">
             <SheetTitle>Menu</SheetTitle>
             <ModeToogle />
             <Button asChild variant="ghost">

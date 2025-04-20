@@ -8,9 +8,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuContent,
   DropdownMenuCheckboxItem,
-} from "../ui/dropdown-menu";
+} from "../../ui/dropdown-menu";
 import { SunIcon, MoonIcon, SunMoon } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { useEffect, useState } from "react";
 
 const ModeToogle = () => {
